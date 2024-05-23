@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#product-viewer {
+    width: 80vw;
+    height: 80vh;
+}
+
+@media (max-width: 768px) {
+    #product-viewer {
+        width: 90vw;
+        height: 60vh;
+    }
+}
